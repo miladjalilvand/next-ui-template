@@ -8,7 +8,7 @@ export default function Bar (){
 
     return (
 
-        <div className="fixed flex-row w-full z-40 h-12 bg-background shadow-foreground-200 shadow-sm">
+        <div className="fixed flex-row w-full z-40 h-12 bg-gradient-to-b from-background to-foreground opacity-45 ">
 
            <div className="z-50">
            <MenuICON isopen={isOpen} setopen={setOpen}></MenuICON>
